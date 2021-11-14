@@ -1,0 +1,23 @@
+﻿<Window x:Class="Samochody.Marka"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Samochody"
+        mc:Ignorable="d"
+        Title="Marka" Height="450" Width="800">
+    <Grid>
+        <RadioButton x:Name="rbutton_ford" Content="Ford" HorizontalAlignment="Left" Margin="49,66,0,0" VerticalAlignment="Top" Height="20" Width="193" FontSize="17" Checked="rbutton_ford_Checked" Unchecked="rbutton_ford_Checked"/>
+        <RadioButton x:Name="rbutton_fiat" Content="Fiat" HorizontalAlignment="Left" Margin="49,106,0,0" VerticalAlignment="Top" Height="20" Width="193" FontSize="17" Checked="rbutton_fiat_Checked" Unchecked="rbutton_fiat_Checked"/>
+        <RadioButton x:Name="rbutton_ferrari" Content="Ferrari" HorizontalAlignment="Left" Margin="49,86,0,0" VerticalAlignment="Top" Height="20" Width="193" FontSize="17" Checked="rbutton_ferrari_Checked" Unchecked="rbutton_ferrari_Checked" />
+        <CheckBox x:Name="check_klima" Content="klimatyzacja" HorizontalAlignment="Left" Margin="49,168,0,0" VerticalAlignment="Top" Height="28" Width="269" FontSize="17" Checked="check_klima_Checked" Unchecked="check_klima_Checked"/>
+        <CheckBox x:Name="check_fotele" Content="podgrzewane fotele" HorizontalAlignment="Left" Margin="49,196,0,0" VerticalAlignment="Top" Height="21" Width="269" FontSize="17" Checked="check_fotele_Checked" Unchecked="check_fotele_Checked"/>
+        <CheckBox x:Name="check_kierownica" Content="skórzana kierownica" HorizontalAlignment="Left" Margin="49,222,0,0" VerticalAlignment="Top" Height="21" Width="193" FontSize="17" Checked="check_kierownica_Checked" Unchecked="check_kierownica_Checked"/>
+        <CheckBox x:Name="check_radio" Content="radio" HorizontalAlignment="Left" Margin="49,248,0,0" VerticalAlignment="Top" Height="22" Width="193" FontSize="17" Checked="check_radio_Checked" Unchecked="check_radio_Checked"/>
+        <Label x:Name="cena_marka"  Content="00,00"  HorizontalAlignment="Left" Margin="500,66,0,0" VerticalAlignment="Top" Height="40" Width="108" FontSize="20"/>
+        <TextBlock HorizontalAlignment="Left" Margin="500,30,0,0" Text="Suma" TextWrapping="Wrap" VerticalAlignment="Top" Height="31" Width="215" FontSize="20"/>
+        <Button x:Name="powrót" Content="POWRÓT" HorizontalAlignment="Left" Margin="587,337,0,0" VerticalAlignment="Top" Height="54" Width="128" FontSize="20" Click="powrót_Click"/>
+        <TextBlock HorizontalAlignment="Left" Margin="49,308,0,0" Text="Polisa" TextWrapping="Wrap" VerticalAlignment="Top" Width="150" Height="34" FontSize="17"/>
+        <TextBox x:Name="polisa" HorizontalAlignment="Left" Margin="49,342,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Height="34" FontSize="17" TextChanged="polisa_TextChanged"/>
+    </Grid>
+</Window>

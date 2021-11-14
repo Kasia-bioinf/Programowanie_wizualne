@@ -1,0 +1,15 @@
+﻿<Window x:Class="Samochody.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Samochody"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="marka" Content="MARKA" HorizontalAlignment="Left" Margin="59,167,0,0" VerticalAlignment="Top" Height="90" Width="154" Background="#FFD88D8D" FontSize="30" Click="marka_Click"/>
+        <Button x:Name="silnik" Content="SILNIK" HorizontalAlignment="Left" Margin="283,167,0,0" VerticalAlignment="Top" Height="90" Width="154" Background="#FFD88D8D" FontSize="30" Click="silnik_Click"/>
+        <Label x:Name="licznik" Content="00,00" HorizontalAlignment="Center" Margin="511,0,0,0" VerticalAlignment="Center" Height="80" Width="253" FontSize="30"/>
+
+    </Grid>
+</Window>
