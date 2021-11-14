@@ -1,0 +1,19 @@
+﻿<Window x:Class="lab4.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:lab4"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="chose_button_" Content="Załaduj zdjęcie" HorizontalAlignment="Left" Margin="80,80,0,0" VerticalAlignment="Top" Height="36" Width="122" Click="chose_button__Click"/>
+        <Button x:Name="mirror_button" Content="Odbice lustrzane" HorizontalAlignment="Left" Margin="80,121,0,0" VerticalAlignment="Top" Height="36" Width="122" Click="mirror_button_Click"/>
+        <Button x:Name="negativ_button" Content="Negatyw" HorizontalAlignment="Left" Margin="80,162,0,0" VerticalAlignment="Top" Height="36" Width="122"/>
+        <Button x:Name="green_button" Content="Zielony" HorizontalAlignment="Left" Margin="80,203,0,0" VerticalAlignment="Top" Height="36" Width="122" Click="green_button_Click"/>
+        <Button x:Name="spin_button" Content="Obrót o 90 st." HorizontalAlignment="Left" Margin="80,244,0,0" VerticalAlignment="Top" Height="36" Width="122" Click="spin_button_Click"/>
+        <Image x:Name="image" Margin="276,54,94,54"/>
+        <Button x:Name="watermark_button" Content="Znak wodny" HorizontalAlignment="Left" Margin="80,285,0,0" VerticalAlignment="Top" Height="36" Width="122"/>
+
+    </Grid>
+</Window>
