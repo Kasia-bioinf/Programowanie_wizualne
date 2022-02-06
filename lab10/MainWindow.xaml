@@ -1,0 +1,18 @@
+﻿<Window x:Class="lab10.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:lab10"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="play" Content="PLAY" HorizontalAlignment="Left" Margin="114,110,0,0" VerticalAlignment="Top" Height="64" Width="137" Click="play_Click" FontSize="18"/>
+        <Button x:Name="stop" Content="STOP" HorizontalAlignment="Left" Margin="114,217,0,0" VerticalAlignment="Top" Height="64" Width="137" FontSize="18" Click="stop_Click"/>
+
+
+        <ListBox Name="Songs" Margin="400,118,25,110" SelectionChanged="Songs_SelectionChanged">
+        </ListBox>
+        <TextBlock HorizontalAlignment="Center" Margin="0,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="47" Width="780" Background="#FF398219" FontSize="36" Text="Kolędnik" Foreground="Black" FontWeight="Bold" TextAlignment="Center"/>
+    </Grid>
+</Window>
